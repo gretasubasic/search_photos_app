@@ -1,0 +1,87 @@
+body{
+  background-color: #cccccc;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+  width: 90vw;
+  margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+}
+
+.form-input {
+  background-color: #fff;
+  width: 50vw;
+  height: 3.5rem;
+  border-style: none;
+  outline: #17242a;
+  font-size: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 20px;
+
+}
+
+::placeholder {
+  font-size: 20px;
+  color: #17242a;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  padding-left: 20px;
+  letter-spacing: 0.5rem;
+  text-align: left;
+}
+
+.submit-button {
+  background: none;
+  border-style: none;
+}
+
+.search-icon {
+  width: 4rem;
+  height: 3rem;
+  color: #767676;
+}
+
+.photo-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: max-content;
+  gap: 2rem;
+  
+
+}
+
+.photo {
+  height: 17.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.photo > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.title-input {
+background-color: blueviolet;
+width: 300px;
+height: 100px;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
